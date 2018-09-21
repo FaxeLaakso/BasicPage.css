@@ -12,22 +12,32 @@ background-repeat: no-repeat;
 }
 	
 	
-	.nav { Background-color: Black;height: auto; display:flex; border: 5px solid purple;float: c}
+	
+	.nav { Background-color: Black;height: auto; display:flex; border: 5px solid #aad4e5;float: c}
 	.body { Background-color: Black;height: 100%; display:flex; color: white,}
-		.dropbtn {
-    background-color: purple;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: 2px;
+		
+	.dropbtn {
+    background-color: #aad4e5;
+    color: black;
+    padding: auto;
+    font-size: 22
+			;
+		
+    
+			border-color: black
+			
 }
+	
+	
 
 .dropdown {
     position: relative;
     display: inline-block;
-	
-			
+	width: auto;		
 }
+	
+	
+	
 
 .dropdown-content {
     display: none;
@@ -38,20 +48,26 @@ background-repeat: no-repeat;
     z-index: 1;
 }
 
+	
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
-
+	
+	
 .dropdown-content a:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #4B0082a;}
+	
+	.mainframe {display: block; background-color: White; height: 70%; width: 50%}
 	</style>
+
 </css>
+
 <html>
 	<div class="head">  
 		</div>
@@ -77,5 +93,8 @@ background-repeat: no-repeat;
   </div>
  </a> </div>
 	</div>
-		<div class="body"> </div>
+		<div class="body"> 
+			<div class="mainframe">adsad </div>
+			
+			</div>
 </html>
