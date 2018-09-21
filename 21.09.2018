@@ -1,4 +1,4 @@
-“Stand 20.09.2018”
+<css>
 <style>
 
 	.head { background-image: url(https://static.wixstatic.com/media/b83db2_b63350b30bc941a4bf5741a57e653b58.jpg/v1/fill/w_721,h_146,al_c,lg_1,q_80/b83db2_b63350b30bc941a4bf5741a57e653b58.webp); Font-size: 20;Font-color: Black;background-position: center;
@@ -19,13 +19,14 @@ background-repeat: no-repeat;
     color: white;
     padding: 16px;
     font-size: 16px;
-    border: none;
+    border: 2px;
 }
 
 .dropdown {
     position: relative;
     display: inline-block;
-		float: left
+	
+			
 }
 
 .dropdown-content {
@@ -57,7 +58,16 @@ background-repeat: no-repeat;
 	
 	<div class= "nav">
 		<div><a href><div class="dropdown">
-  <button class="dropbtn">Dropdown</button>
+  <button class="dropbtn">Hauptseite</button>
+  <div class="dropdown-content">
+    
+  </div>
+
+  </div>
+ </a> </div>
+				
+		<div><a href><div class="dropdown">
+  <button class="dropbtn">Über mich</button>
   <div class="dropdown-content">
     <a href="#">Link 1</a>
     <a href="#">Link 2</a>
@@ -69,4 +79,3 @@ background-repeat: no-repeat;
 	</div>
 		<div class="body"> </div>
 </html>
-
