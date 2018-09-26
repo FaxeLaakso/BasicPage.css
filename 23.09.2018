@@ -14,7 +14,8 @@ background-repeat: no-repeat;
 	
 	
 	.nav { Background-color: #3db02b;height: auto; display:flex; border: 5px solid #3db02b;}
-	.body {background-position: center; background-image:url(https://i.ytimg.com/vi/4wdbH5l34LA/maxresdefault.jpg);height: 100%; display:flex; color: white,;}
+	.body {}
+	.background {background-position: center; background-image:url(https://i.ytimg.com/vi/4wdbH5l34LA/maxresdefault.jpg);height: 100%; display:flex; color: white;-webkit-filter: brightness(70%)}
 		
 	.dropbtn {
         background-color: #3db02b;
@@ -59,8 +60,7 @@ background-repeat: no-repeat;
 
 .dropdown:hover .dropbtn {background-color: #4B0082a;}
 	
-	.mainframe {display: block; background-color: White; height: 50%; width: 50%;position: relative;left: 25%; right: 25%;top: 10%; opacity: 0.75}
-	
+	.mainframe {display: block; background-color: White; height: 50%; width: 50%;opacity: 0,75;position: absolute;left: 25%; right: 25%;top: 35%; -webkit-filter: brightness(100%); flex-wrap: wrap; } }	
 	</style>
 
 </css>
@@ -90,8 +90,13 @@ background-repeat: no-repeat;
   </div>
  </a> </div>
 	</div>
+	<div class="background">
+	</div>
+		<div class="mainframe"> rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr</div>
 		<div class="body"> 
-			<div class="mainframe"> </div>
+			
+			
 			
 			</div>
-</html>f
+	
+</html>
