@@ -13,11 +13,11 @@ background-repeat: no-repeat;
 	
 	
 	
-	.nav { Background-color: purple;height: auto; display:flex; border: 5px solid purple;}
-	.body {background-position: center; background-image:url(http://www.wallpapermaiden.com/image/2018/05/23/cosmic-eye-galaxy-stars-nebula-space-21416.jpg);height: 100%; display:flex; color: white,;}
+	.nav { Background-color: #3db02b;height: auto; display:flex; border: 5px solid #3db02b;}
+	.body {background-position: center; background-image:url(https://i.ytimg.com/vi/4wdbH5l34LA/maxresdefault.jpg);height: 100%; display:flex; color: white,;}
 		
 	.dropbtn {
-        background-color: purple;
+        background-color: #3db02b;
     color: white;
     padding: 16px;
     font-size: 16px;
