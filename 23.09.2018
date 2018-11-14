@@ -1,102 +1,140 @@
-<css>
-<style>
-
-	.head { background-image: url(https://static.wixstatic.com/media/b83db2_b63350b30bc941a4bf5741a57e653b58.jpg/v1/fill/w_721,h_146,al_c,lg_1,q_80/b83db2_b63350b30bc941a4bf5741a57e653b58.webp); Font-size: 20;Font-color: Black;background-position: center;
-right: 100px;
-top: 50px;
-width: 100%;
-height: 18%;
-background-repeat: no-repeat;
-  align-items: flex-start;
-		background-color: black
-}
+<css><style>
+	.head { 
+		background-image: url(https://static.wixstatic.com/media/b83db2_b63350b30bc941a4bf5741a57e653b58.jpg/v1/fill/w_721,h_146,al_c,lg_1,q_80/b83db2_b63350b30bc941a4bf5741a57e653b58.webp);
+		Font-size: 20;
+		Font-color: Black;
+		background-position: center;
+		//rgb(220,160,140)
+		right: 100px;
+		top: 50px;
+		width: 100%;
+		height: 17%;
+		background-repeat: no-repeat;
+	  	align-items: flex-start;
+		background-color: black;
+	}
 	
+	.nav {
+		Background-color: #3db02b;
+		height: auto;
+		display:flex;
+		border: 5px solid #3db02b;
+	}
 	
-	
-	.nav { Background-color: #3db02b;height: auto; display:flex; border: 5px solid #3db02b;}
-	.body {}
-	.background {background-position: center; background-image:url(https://i.ytimg.com/vi/4wdbH5l34LA/maxresdefault.jpg);height: 100%; display:flex; color: white;-webkit-filter: brightness(70%)}
+	.background {
+		background-position: absolute;
+		background-image:url(https://i.ytimg.com/vi/4wdbH5l34LA/maxresdefault.jpg);
+		height: 100%;
+		display:flex;
+		color: white;
+		-webkit-filter: brightness(70%);
+		justify-content: center;
+	}
 		
 	.dropbtn {
         background-color: #3db02b;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-		cursor: pointer;}
+	    color: white;
+	    padding: 16px;
+	    font-size: 16px;
+	    border: none;
+		cursor: pointer;
+	}
 	
+	.dropdown {
+	    position: relative;
+	    display: inline-block;
+	}
 	
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-		
-}
-	
-	
-	
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
+	.dropdown-content {
+	    display: none;
+	    position: absolute;
+	    background-color: white;
+	    min-width: 160px;
+	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	    z-index: 1;
+	}
 
 	
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
+	.dropdown-content a {
+	    color: black;
+	    padding: 12px 16px;
+	    text-decoration: none;
+	    display: block;
+	}
 	
+	.dropdown-content a:hover {background-color: #ddd;}
+
+	.dropdown:hover .dropdown-content {display: block;}
+
+	.dropdown:hover .dropbtn {background-color: #4B0082a;}
+
+	.leftbox {
+		display: inline; 
+		background-color: blue; 
+		height: 50%; 
+		width: 75%;
+		opacity: 0,75; 
+		position: absolute
+	}
 	
-.dropdown-content a:hover {background-color: #ddd;}
+	.mainframe {
+		display: inline;
+		background-color: White;
+		height: 50%;
+		width: 62,5%;
+		opacity: 0,75;
+		position: absolute ;
+	 	left: 25%;
+	 	right: 25%;
+	 	top: 35%;
+	 	-webkit-filter: brightness(95%);
+	 	flex-wrap: wrap;
+	}
 
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #4B0082a;}
-	
-	.mainframe {display: block; background-color: White; height: 50%; width: 50%;opacity: 0,75;position: absolute;left: 25%; right: 25%;top: 35%; -webkit-filter: brightness(100%); flex-wrap: wrap; } }	
-	</style>
-
-</css>
+	.body {
+		background-color:blue
+	}	
+</style></css>
 
 <html>
-	<div class="head">  
-		</div>
+	<div class="head"></div>
 	
 	<div class= "nav">
-		<div><a href><div class="dropdown">
-  <button class="dropbtn">Hauptseite</button>
-  <div class="dropdown-content">
-    
-  </div>
-
-  </div>
- </a> </div>
-				
-		<div><a href><div class="dropdown">
-  <button class="dropbtn">Über mich</button>
-  <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
-
-  </div>
- </a> </div>
+		<div>
+			<a>
+				<div class="dropdown">
+				  	<button class="dropbtn">Hauptseite</button>
+					<div class="dropdown-content"></div>
+  				</div>
+ 			</a>
+ 		</div>
+		<div>
+			<a href>
+				<div class="dropdown">
+  					<button class="dropbtn">Über mich</button>
+  					<div class="dropdown-content">
+					    <a href="#">Link 1</a>
+					    <a href="#">Link 2</a>
+					    <a href="#">Link 3</a>
+  					</div>
+				</div>
+ 			</a>
+ 		</div>
 	</div>
-	<div class="background">
+	<div class="body">	
+		<div class="background"></div>
+		<div class="mainframe"> 
+			<p>Herzlich Willkommen</p>
+			<br>
+			<br>
+			<p>Ich wünsche euch auf meiner Homepage Willkommen.</p>
+			<br>
+			<br>
+			<p>Von Astronomie bis Zombies gibt es hier viel zu erkunden. Also lasst euch Zeit und schaut euch in ruhe um.</p>
+			<br>
+			<br>
+			<p>Viel Spaß beim stöbern!</p>
+	 	</div>
+		<div class="leftbox">sdsdsad </div>
 	</div>
-		<div class="mainframe"> rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr</div>
-		<div class="body"> 
-			
-			
-			
-			</div>
-	
 </html>
