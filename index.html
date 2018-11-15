@@ -1,0 +1,166 @@
+<css><style>
+	@media (max-width: 599px) {
+		.head {
+			background-image: url("https://oyster.ignimgs.com/mediawiki/apis.ign.com/best-of-2015/thumb/2/25/Mm030212151280jpg-b6dff4.jpg/600px-Mm030212151280jpg-b6dff4.jpg") !important;
+		}
+	}
+
+	@media (min-width: 1024px) {
+		.main {
+			width: 1024px !important;
+			margin: auto;
+		}
+
+		.leftbox {
+			display: block !important; 
+			flex-grow: 0;
+			background-color: blue;  
+			width: 128px;
+			opacity: 0.75;
+		}
+	}
+
+	body {
+		background-image:url(https://i.ytimg.com/vi/4wdbH5l34LA/maxresdefault.jpg);
+		background-size: cover;
+		margin: 0;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	.main {
+		height: 100%;
+		width: 100%;
+	}
+
+	.head { 
+		background-image: url(https://static.wixstatic.com/media/b83db2_b63350b30bc941a4bf5741a57e653b58.jpg/v1/fill/w_721,h_146,al_c,lg_1,q_80/b83db2_b63350b30bc941a4bf5741a57e653b58.webp);
+		Font-size: 20;
+		Font-color: Black;
+		background-position: center;
+		right: 100px;
+		top: 50px;
+		width: 100%;
+		height: 17%;
+		background-repeat: no-repeat;
+	  	align-items: flex-start;
+		background-color: black;
+	}
+	
+	.nav {
+		Background-color: #3db02b;
+		height: auto;
+		display:flex;
+		border: 5px solid #3db02b;
+	}
+		
+	.dropbtn {
+        background-color: #3db02b;
+	    color: white;
+	    padding: 16px;
+	    font-size: 16px;
+	    border: none;
+		cursor: pointer;
+	}
+	
+	.dropdown {
+	    position: relative;
+	    display: inline-block;
+	}
+	
+	.dropdown-content {
+	    display: none;
+	    position: absolute;
+	    background-color: white;
+	    min-width: 160px;
+	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	    z-index: 1;
+	}
+
+	
+	.dropdown-content a {
+	    color: black;
+	    padding: 12px 16px;
+	    text-decoration: none;
+	    display: block;
+	}
+	
+	.dropdown-content a:hover {background-color: #ddd;}
+
+	.dropdown:hover .dropdown-content {display: block;}
+
+	.dropdown:hover .dropbtn {background-color: #4B0082a;}
+
+	.content {
+		display: flex;
+		flex-direction: row;
+		padding: 32px 0 32px 0;
+	}
+
+	.leftbox {
+		display: none;
+		color: white;
+	}
+	
+	.rightbox {
+		flex-grow: 1;
+		display: inline;
+		background-color: white;
+		opacity: 0.75;
+	 	-webkit-filter: brightness(95%);
+	 	padding: 16px;
+	}
+
+
+</style></css>
+
+<html><div class="main">
+	<div class="head"></div>
+	
+	<div class= "nav">
+		<div>
+			<a>
+				<div class="dropdown">
+				  	<button class="dropbtn">Hauptseite</button>
+					<div class="dropdown-content"></div>
+  				</div>
+ 			</a>
+ 		</div>
+		<div>
+			<a href>
+				<div class="dropdown">
+  					<button class="dropbtn">Über mich</button>
+  					<div class="dropdown-content">
+					    <a href="#">Link 1</a>
+					    <a href="#">Link 2</a>
+					    <a href="#">Link 3</a>
+  					</div>
+				</div>
+ 			</a>
+ 		</div>
+	</div>
+	<div class="content">
+		<div class="leftbox">
+			<ul>
+				<li>Menu Item</li>
+				<li>Menu Item</li>
+				<li>Menu Item</li>
+				<li>Menu Item</li>
+			</ul>
+		</div>
+		<div class="rightbox">
+			<p>Herzlich Willkommen</p>
+			<br>
+			<br>
+			<p>Ich wünsche euch auf meiner Homepage Willkommen.</p>
+			<br>
+			<br>
+			<p>Von Astronomie bis Zombies gibt es hier viel zu erkunden. Also lasst euch Zeit und schaut euch in ruhe um.</p>
+			<br>
+			<br>
+			<p>Viel Spaß beim stöbern!</p>
+		</div>	
+	</div>
+</div></html>
